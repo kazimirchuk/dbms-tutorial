@@ -1,0 +1,6 @@
+.vagrant/*
+.cache/*
+.idea/*
+.bash_history
+.cache
+.cloud-locale-test.skip

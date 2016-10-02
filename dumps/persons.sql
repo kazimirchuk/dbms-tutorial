@@ -1,0 +1,18 @@
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (1, 'Peter', 'Parker', 'sm', 'Spider-Man', 1999);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (2, 'Bruce', 'Banner', 'hu', 'Hulk', 1986);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (3, 'Victor', 'Doom', 'dm', 'Dr. Doom', 1980);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (4, 'James', 'Howlett', 'lg', 'Wolverine', 1700);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (5, 'Steven', 'Rogers', 'ca', 'Captain America', 1930);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (6, 'Mathew', 'Murdok', 'dd', 'Daredevil', 1985);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (7, 'Wade', 'Wilson', 'dp', 'Deadpool', 1978);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (8, 'Max', 'Eisenhardt', 'mg', 'Magneto', 1930);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (9, 'Loki', 'Laufeyjarson', 'lk', 'Loki', 1200);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (11, 'Charles ', 'Xavier', 'px', 'Professor X', 1930);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (12, 'Bucky', 'Barns', 'bb', 'Winter Soldier', 1920);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (13, 'Eddie', 'Brock', 'vn', 'Venom', 1988);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (14, 'Johan', 'Shmidt', 'rs', 'Red Skul', 1930);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (15, 'Nick', 'Fury', 'nf', 'Nick Fury', 1930);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (16, 'Frank', 'Castle', 'pn', 'Punisher', 1975);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (17, 'Namor', 'McKenzie', 'np', 'Prince Namor', 1800);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (18, 'Otto', 'Octavious', 'oo', 'Doc Ock', 1960);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (19, 'Hank', 'Pym', 'hp', 'Ant-Man', 1975);

@@ -1,0 +1,11 @@
+INSERT INTO public.persons_super_abilities (id, person_id, super_ability_id) VALUES (1, 2, 6);
+INSERT INTO public.persons_super_abilities (id, person_id, super_ability_id) VALUES (2, 17, 8);
+INSERT INTO public.persons_super_abilities (id, person_id, super_ability_id) VALUES (3, 13, 10);
+INSERT INTO public.persons_super_abilities (id, person_id, super_ability_id) VALUES (4, 5, 9);
+INSERT INTO public.persons_super_abilities (id, person_id, super_ability_id) VALUES (5, 12, 9);
+INSERT INTO public.persons_super_abilities (id, person_id, super_ability_id) VALUES (6, 14, 9);
+INSERT INTO public.persons_super_abilities (id, person_id, super_ability_id) VALUES (7, 18, 7);
+INSERT INTO public.persons_super_abilities (id, person_id, super_ability_id) VALUES (8, 8, 4);
+INSERT INTO public.persons_super_abilities (id, person_id, super_ability_id) VALUES (9, 4, 3);
+INSERT INTO public.persons_super_abilities (id, person_id, super_ability_id) VALUES (10, 4, 2);
+INSERT INTO public.persons_super_abilities (id, person_id, super_ability_id) VALUES (11, 7, 2);
