@@ -11,7 +11,7 @@ CREATE TABLE products (
     name             VARCHAR(50) NOT NULL,
     gender           VARCHAR(10) NOT NULL,
     count            SMALLINT NOT NULL,
-    date_arrive      SMALLINT NOT NULL CONSTRAINT positive_date CHECK (date_arrive > 0)
+    date_arrive      TIMESTAMP WITH TIME ZONE
 );
 
 CREATE TABLE customers (
