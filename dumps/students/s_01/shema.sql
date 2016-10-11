@@ -6,15 +6,14 @@ DROP TABLE IF EXISTS user_seller CASCADE;
 DROP TABLE IF EXISTS cars CASCADE;
 DROP TABLE IF EXISTS car_details CASCADE;
 
-CREATE TABLE service(
+CREATE TABLE services(
     id               SERIAL PRIMARY KEY,
-    person_name      VARCHAR(50) NOT NULL,
-    service_type     VARCHAR(20) NOT NULL,
-    deal_date        TIMESTAMP
+    service_name     VARCHAR(50) NOT NULL
 )
 
-CREATE TABLE service_sale{
+CREATE TABLE services_sale{
     id               SERIAL PRIMARY KEY,
+    services_id      INT REFERENCES services (id),
     profit           DECIMAL
 }
 
@@ -28,13 +27,13 @@ CREATE TABLE users{
     born_year        SMALLINT NOT NULL CONSTRAINT positive_age CHECK (born_year > 0)
 }
 
-CREATE TABLE user_manager(
+CREATE TABLE users_manager(
     id               SERIAL PRIMARY KEY,
     users_id         INT REFERENCES users (id),
     bill_access      BOOLEAN
 )
 
-CREATE TABLE user_seller(
+CREATE TABLE users_seller(
     id               SERIAL PRIMARY KEY,
     users_id         INT REFERENCES users (id),
     staff            BOOLEAN
@@ -47,11 +46,11 @@ CREATE TABLE cars{
     created_date     TIMESTAMP
 }
 
-CREATE TABLE car_details{
+CREATE TABLE cars_details{
     id               SERIAL PRIMARY KEY,
-    cars_id          INT REFERENCES uscarsers (id),
+    cars_id          INT REFERENCES cars (id),
     car_color        VARCHAR(10) NOT NULL,
     car_manufacturer VARCHAR(50) NOT NULL,
-    car_volume       SMALLINT NOT NULL CONSTRAINT menace_levels CHECK (menace_level >= 0 AND menace_level <= 10),
+    car_volume       DECIMAL positive_volume CHECK (positive_volume >= 0 AND positive_volume <= 10),
     description      TEXT
 }
