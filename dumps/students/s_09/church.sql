@@ -27,11 +27,11 @@ CREATE TABLE services(
     desciption TEXT
 )
 
-CREATE TABLE roles_services {
+CREATE TABLE roles_services(
     id SERIAL PRIMARY KEY,
     roles_id INT REFERENCES roles (id),
     services_id INT REFERENCES services (id)
-}
+)
 
 CREATE TABLE church_goods(
     id SERIAL PRIMARY KEY,
