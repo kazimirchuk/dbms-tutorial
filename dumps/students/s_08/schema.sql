@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS students CASCADE;
 DROP TABLE IF EXISTS teachers CASCADE;
 DROP TABLE IF EXISTS services CASCADE;
 DROP TABLE IF EXISTS teachers_services CASCADE;
-DROP TABLE IF EXISTS students_teachers_setvices CASCADE;
+DROP TABLE IF EXISTS students_teachers_services CASCADE;
 
 CREATE TABLE students(
     id               SERIAL PRIMARY KEY,
@@ -44,6 +44,6 @@ CREATE TABLE teachers_services(
 
 CREATE TABLE students_teachers_setvices(
    id                    SERIAL PRIMARY KEY,
-   id_student            INT REFERENCES countries (id),
+   id_student            INT REFERENCES students (id),
    id_teacher_service    VARCHAR(50) NOT NULL
 );
