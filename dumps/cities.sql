@@ -6,4 +6,12 @@ INSERT INTO public.cities (id, country_id, name, total_population, total_area_sq
 INSERT INTO public.cities (id, country_id, name, total_population, total_area_sq_m, foundation_year) VALUES (6, 4, 'Toronto', 3000000, 900000, 1000);
 INSERT INTO public.cities (id, country_id, name, total_population, total_area_sq_m, foundation_year) VALUES (7, 4, 'Vancouver', 3000000, 1000000, 1000);
 INSERT INTO public.cities (id, country_id, name, total_population, total_area_sq_m, foundation_year) VALUES (8, 5, 'Moscow', 3000000, 1000000, 1150);
-INSERT INTO public.cities (id, country_id, name, total_population, total_area_sq_m, foundation_year) VALUES (9, 6, 'Paris', 4500000, 1000000, 1300);
+INSERT INTO public.cities (id, country_id, name, total_population, total_area_sq_m, foundation_year) VALUES (9, 1, 'Parisdss', 4500000, 1000000, 1300);
+INSERT INTO public.cities (id, country_id, name, total_population, total_area_sq_m, foundation_year) VALUES (10, 1, 'Parisdsds', 4500000, 1000000, 1300);
+INSERT INTO public.cities (id, country_id, name, total_population, total_area_sq_m, foundation_year) VALUES (11, 1, 'Parisasad', 4500000, 1000000, 1300);
+INSERT INTO public.cities (id, country_id, name, total_population, total_area_sq_m, foundation_year) VALUES (12, 2, 'Parifdfds', 4500000, 1000000, 1300);
+INSERT INTO public.cities (id, country_id, name, total_population, total_area_sq_m, foundation_year) VALUES (13, 3, 'Parifdfds', 4500000, 1000000, 1300);
+INSERT INTO public.cities (id, country_id, name, total_population, total_area_sq_m, foundation_year) VALUES (14, 2, 'Parisfdfd', 4500000, 1000000, 1300);
+INSERT INTO public.cities (id, country_id, name, total_population, total_area_sq_m, foundation_year) VALUES (15, 4, 'Parisfdf', 4500000, 1000000, 1300);
+INSERT INTO public.cities (id, country_id, name, total_population, total_area_sq_m, foundation_year) VALUES (16, 5, 'Parisfdfd', 4500000, 1000000, 1300);
+INSERT INTO public.cities (id, country_id, name, total_population, total_area_sq_m, foundation_year) VALUES (17, 4, 'Parifdfs', 4500000, 1000000, 1300);

@@ -15,4 +15,11 @@ INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, b
 INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (16, 'Frank', 'Castle', 'pn', 'Punisher', 1975);
 INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (17, 'Namor', 'McKenzie', 'np', 'Prince Namor', 1800);
 INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (18, 'Otto', 'Octavious', 'oo', 'Doc Ock', 1960);
-INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (19, 'Hank', 'Pym', 'hp', 'Ant-Man', 1975);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (19, 'Hankssss', 'Pymew', 'hpd', 'Ant-Man', 1915);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (20, 'Hankdddd', 'Pymdsf', 'hpd', 'Ant-Man', 1925);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (21, 'Hankdddd', 'Pymdf', 'hpd', 'Ant-Man', 1945);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (22, 'Hankvvvv', 'Pymdsfs', 'hpd', 'Ant-Man', 1935);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (23, 'Hankerer', 'Pymdfd', 'hpd', 'Ant-Man', 1945);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (24, 'Hankwerw', 'Pymdfdf', 'hpdd', 'Ant-Man', 1955);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (25, 'Hankuyuyuy', 'Pymdfdf', 'hpd', 'Ant-Man', 1965);
+INSERT INTO public.persons (id, first_name, last_name, code_name, public_name, born_year) VALUES (26, 'Hankqwqwq', 'Pymdfdf', 'hpd', 'Ant-Man', 1970);

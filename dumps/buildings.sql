@@ -4,3 +4,11 @@ INSERT INTO public.buildings (id, address_name, district, floors) VALUES (3, 'ra
 INSERT INTO public.buildings (id, address_name, district, floors) VALUES (4, 'random name', 1, 150);
 INSERT INTO public.buildings (id, address_name, district, floors) VALUES (5, 'random name', 4, 24);
 INSERT INTO public.buildings (id, address_name, district, floors) VALUES (6, 'random name', 5, 12);
+INSERT INTO public.buildings (id, address_name, district, floors) VALUES (7, 'random name', 2, 22);
+INSERT INTO public.buildings (id, address_name, district, floors) VALUES (8, 'random name', 2, 222);
+INSERT INTO public.buildings (id, address_name, district, floors) VALUES (9, 'random name', 3, 66);
+INSERT INTO public.buildings (id, address_name, district, floors) VALUES (10, 'random name', 3, 75);
+INSERT INTO public.buildings (id, address_name, district, floors) VALUES (11, 'random name', 3, 48);
+INSERT INTO public.buildings (id, address_name, district, floors) VALUES (12, 'random name', 2, 36);
+INSERT INTO public.buildings (id, address_name, district, floors) VALUES (13, 'random name', 4, 76);
+INSERT INTO public.buildings (id, address_name, district, floors) VALUES (14, 'random name', 4, 10);
