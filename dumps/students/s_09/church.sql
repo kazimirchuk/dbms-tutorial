@@ -14,8 +14,7 @@ CREATE TABLE persons(
 
 CREATE TABLE roles(
     id SERIAL PRIMARY KEY,
-    first_name VARCHAR(40) NOT NULL,
-    last_name VARCHAR(60) NOT NULL,
+    name VARCHAR(40) NOT NULL,
     born_year SMALLINT NOT NULL CONSTRAINT positive_age CHECK (born_year > 0) and (born_year < 101)
 )
 
